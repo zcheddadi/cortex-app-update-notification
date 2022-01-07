@@ -1,1 +1,13 @@
-Test notification.
+A Note on Terminology
+There are a lot of extra features that could be included in a list like this, but I’m grouping them into three categories based on how they function:
+
+Built-in Gmail extensions are features that are already found in Gmail, but rely on some external service or app to function. They exclude things like snoozed emails or advanced settings, which are a default part of Gmail, and Gmail alone.
+Third-party Gmail apps are standalone apps for Gmail made by external developers. In some cases, they’ve been developed specifically for use with Gmail. In others, they exist as standalone apps that happen to integrate with Gmail in a way that can improve your email productivity.
+Gmail extensions include plugins or extensions, either to Gmail directly or to Google Chrome. They may or may not be a part of a standalone app.
+There’s a gray area between apps and extensions; some apps have an extension you can use to improve the accessibility of the app, while some Gmail extensions have apps that allow more functionality than the basic integration.
+
+I’ve done my best to keep them categorized according to the “dominant” version of the entity—either because it’s the most popular, or because it’s the most functional. Feel free to disagree with my assessments, but do try out both the app version and extension version where appropriate.
+
+Furthermore, many Gmail apps and Gmail extensions offer “G Suite” integrations, which appear as icons in the right-hand menu when added. You can find Gmail add-ons that meet this criterion by clicking Settings, then “Get add-ons.”
+
+From there, you can browse or search the G Suite Marketplace for other G Suite apps and G Suite add ons. You can use most of these integrations with or without the G Suite icon enabled.
