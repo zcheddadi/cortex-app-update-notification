@@ -1,5 +1,5 @@
 <strong>Update [R3.0b]:</strong>
-
+<br/>
 	- Email campaign test page new layout (Layout 2).<br/>
 	- Download and run suppression files from the campaign test page.<br/>
 	- Add offers from the campaign test page directly.<br/>
