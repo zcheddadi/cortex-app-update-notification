@@ -1,19 +1,21 @@
-<div class="box-body">
-              <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Consectetur adipiscing elit</li>
-                <li>Integer molestie lorem at massa</li>
-                <li>Facilisis in pretium nisl aliquet</li>
-                <li>Nulla volutpat aliquam velit
-                  <ul>
-                    <li>Phasellus iaculis neque</li>
-                    <li>Purus sodales ultricies</li>
-                    <li>Vestibulum laoreet porttitor sem</li>
-                    <li>Ac tristique libero volutpat at</li>
-                  </ul>
-                </li>
-                <li>Faucibus porta lacus fringilla vel</li>
-                <li>Aenean sit amet erat nunc</li>
-                <li>Eget porttitor lorem</li>
-              </ul>
-            </div>
+<strong>Update [R3.0b]:</strong>
+
+	- Email campaign test page new layout (Layout 2).<br/>
+	- Download and run suppression files from the campaign test page.<br/>
+	- Add offers from the campaign test page directly.<br/>
+	- Message header/body separation mode selector.<br/>
+	- Track links using sub-domain syntax (http://t-[click].[domain]).<br/>
+	- Auto powerMTA queue monitoring (pause the campaign and clear PMTA queue automatically and resume sent process after X minutes).<br/>
+	- Split selected email data by servers form (new advanced modal added).<br/>
+	- Save campaigns test history.<br/>
+	- Save campaigns updates history.<br/>
+	- New random tags added (fixed random in the same message).<br/>
+	- Add SMTP's to multi delivery servers.<br/>
+	- Add custom VMTA's to multi servers.<br/>
+	- Add routes to multi servers.<br/>
+	- New interface to manage PMTA config and sync all servers directly from it.<br/>
+	- Rebuild delivery servers interface update.<br/>
+	- Upload global suppression file as text file.<br/>
+	- Live traffics feature added.<br/>
+	- Auto start/stop log interface (powerMTA queue monitoring logs).<br/>
+<br/>
