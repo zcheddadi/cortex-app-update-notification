@@ -1,21 +1,37 @@
-<strong>Update [R3.0b]:</strong>
-<br/>
-	- Email campaign test page new layout (Layout 2).<br/>
-	- Download and run suppression files from the campaign test page.<br/>
-	- Add offers from the campaign test page directly.<br/>
-	- Message header/body separation mode selector.<br/>
-	- Track links using sub-domain syntax (http://t-[click].[domain]).<br/>
-	- Auto powerMTA queue monitoring (pause the campaign and clear PMTA queue automatically and resume sent process after X minutes).<br/>
-	- Split selected email data by servers form (new advanced modal added).<br/>
-	- Save campaigns test history.<br/>
-	- Save campaigns updates history.<br/>
-	- New random tags added (fixed random in the same message).<br/>
-	- Add SMTP's to multi delivery servers.<br/>
-	- Add custom VMTA's to multi servers.<br/>
-	- Add routes to multi servers.<br/>
-	- New interface to manage PMTA config and sync all servers directly from it.<br/>
-	- Rebuild delivery servers interface update.<br/>
-	- Upload global suppression file as text file.<br/>
-	- Live traffics feature added.<br/>
-	- Auto start/stop log interface (powerMTA queue monitoring logs).<br/>
-<br/>
+<p><strong><span style="color:#27ae60">Update [2023/01-ST02]:</span><br />
+<br />
+1.&nbsp;&nbsp; &nbsp;<span style="color:#2980b9">Main rebuild</span></strong></p>
+
+<ul>
+	<li>Suppression file process</li>
+	<li>Tracking service</li>
+	<li>The delivery server install process</li>
+	<li>Email campaign process</li>
+</ul>
+
+<p><strong>2.&nbsp;&nbsp; <span style="color:#8e44ad">&nbsp;Details</span></strong></p>
+
+<ol>
+	<li>&nbsp; &nbsp; Implement a cache layer in the processing of the suppression file for improved performance and reduced resource usage.</li>
+	<li>&nbsp; &nbsp; The tracking link now supports 7 formats.</li>
+	<li>&nbsp; &nbsp; Implement a cache layer in the tracking service to handle increased traffic.</li>
+	<li>&nbsp; &nbsp; Maxmind API geo database auto-update.</li>
+	<li>&nbsp; &nbsp; Implement a throttle system to reduce and control excessive HTTP traffic.</li>
+	<li>&nbsp; &nbsp; Implement anti-bot and proxy/VPN traffic detection for improved traffic quality.</li>
+	<li>&nbsp; &nbsp; You can now automatically remove bots from your email lists.</li>
+	<li>&nbsp; &nbsp; Implement API clients for IPHub and ProxyCheck.</li>
+	<li>&nbsp; &nbsp; Rework the structure of dynamic link parameters. (no more domain.com/rd/...)</li>
+	<li>&nbsp; &nbsp; The app now supports three sending scripts. (x/time, x-delay/time, batch)</li>
+	<li>&nbsp; &nbsp; The batch processing speed increased to 400k per minute (as tested on a server with 8GB RAM).</li>
+	<li>&nbsp; &nbsp; Implement API clients for Linode, Hetzner, Ovh.</li>
+	<li>&nbsp; &nbsp; Scheduled campaigns.</li>
+	<li>&nbsp; &nbsp; Include power MTA manager inside multi queues interface for the best user experience.</li>
+	<li>&nbsp; &nbsp; Make power MTA queue link dynamic (is more secure than ports).</li>
+	<li>&nbsp; &nbsp; Support login page with 2FA.</li>
+	<li>&nbsp; &nbsp; Auto Reply (work with your domain name) (maxi boite gmail matalan)</li>
+	<li>&nbsp; &nbsp; SMTP relay added to support all SMTP servers</li>
+	<li>&nbsp; &nbsp; Global suppression list cleaner process</li>
+</ol>
+
+<p>&nbsp;</p>
+
